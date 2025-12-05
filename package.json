@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AlicePlayez.github.io/News",
   "name": "news",
   "version": "0.1.0",
   "private": true,
@@ -11,9 +12,12 @@
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+    "web-vitals": "^2.1.4",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
   "scripts": {
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
